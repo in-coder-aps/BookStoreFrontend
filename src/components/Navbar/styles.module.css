@@ -1,0 +1,102 @@
+.container {
+  background-color: white;
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* .container .logo {
+  margin: 0;
+  background-color: beige;
+} */
+
+/* .container .logo img {
+  height: 75px;
+  padding-top: 4px;
+  width: 100px;
+} */
+.container .logo{
+  font-size: 2rem;
+  color: rgba(22, 21, 20, 0.648);
+  /* text-decoration: none; */
+  font-family: Chivo Mono;
+  font-weight: 700;
+}
+
+.container .logo span{
+  font-family: Chivo Mono;
+  color: orange;
+}
+.container .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.container input {
+  height: 2rem;
+  width: 20rem;
+}
+.container .search img {
+  cursor: pointer;
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+.container .cart_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .cart_container .login_signup {
+  margin-right: 30px;
+}
+
+.container .cart_container img {
+  height: 30px;
+  width: 30px;
+}
+
+.container .cart_container .cart {
+  z-index: 1;
+  margin-right: 25px;
+}
+
+.container .cart_container .cart .buble {
+  height: 20px;
+  width: 20px;
+  background-color: #ec1f1f;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  z-index: 2;
+  display: inline-block;
+  top: 30px;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/*# sourceMappingURL=styles.module.css.map */

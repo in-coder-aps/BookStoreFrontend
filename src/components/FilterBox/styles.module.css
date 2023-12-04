@@ -1,0 +1,31 @@
+.container {
+  height: 80vh;
+  width: 240px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding-left: 3rem;
+  margin-right: 1rem;
+  border: 1px solid gray;
+}
+
+.container h3 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.25 rem;
+}
+.container div {
+  cursor: pointer;
+}
+
+.container .ratingStar {
+  font-weight: 400;
+}
+
+.container .ratingStarSelected {
+  border: 1px solid black;
+  font-weight: bold;
+}
+.container button {
+  margin-top: 2rem;
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=styles.module.css.map */

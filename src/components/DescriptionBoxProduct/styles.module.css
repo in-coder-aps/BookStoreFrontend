@@ -1,0 +1,9 @@
+.container {
+  margin-top: 1rem;
+  border: 1px solid black;
+  background-color: lightgray;
+  width: 25%;
+  height: 60vh;
+  padding: 16px;
+}
+/*# sourceMappingURL=styles.module.css.map */

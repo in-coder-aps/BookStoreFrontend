@@ -1,0 +1,10 @@
+h1 {
+  padding-left: 3rem;
+}
+.flx {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
